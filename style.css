@@ -1,0 +1,237 @@
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navlink{
+        display: flex;
+        align-items: center;
+    }
+    .link{
+        margin-right: 50px;
+    }
+    .link a{
+        text-decoration: none;
+        color: black;
+    }
+    .head{
+        margin-left: 20px;
+    }
+    .option{
+        display: none;
+    }
+    .sidebar{
+        background-color:black;
+        color:white;
+        width:50%;
+        height: 100%;
+        position: fixed;
+        left:-50%;
+        top:0;
+        transition: 1s;
+        z-index: 1;
+    }
+    .side{
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .close{
+        margin-left: 90%;
+    }
+    .close:hover{
+        cursor: pointer;
+    }
+    .link:hover{
+        cursor: pointer;
+    }
+    .option:hover{
+        cursor: pointer;
+    }
+    .side:hover{
+        cursor: pointer;
+    }
+    .content{
+        justify-items: normal;
+        margin-left: 30%;
+        display: flex;
+        margin-top: 40px;
+    }
+    .content button:hover{
+        cursor: pointer;
+    }
+    .newarrival button:hover{
+        cursor: pointer;
+    }
+    .but{
+        padding: 10px;
+        color: white;
+        background-color: black;
+    }
+    .fimg{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .serviceone{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .servicetwo{
+        display: flex;
+        gap:10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .servicetwo div{
+        border-radius: 5px;
+        padding: 10px;
+        background-color: lightgray;
+    }
+    .newarrival{
+        display: flex;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        flex-basis: 20%;
+        justify-content: space-around;
+        position: relative;
+    }
+    .newarrival button{
+        display: block;
+        margin-left: 30px;
+        padding: 10px;
+        background-color: lightgray;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    .news{
+        text-align: center;
+    }
+    .news input{
+        width: 80%;
+        height:30px;
+        border-color: black;
+        border-width: 2px;
+    }
+    .news button{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+    }
+    .news button:hover{
+        cursor: pointer;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 40px;
+        margin-top: 15px;
+        margin-left: -30px;
+        margin-right: -50px;
+        margin-bottom: -20px;
+        display: block;
+    }
+    .prodsrch{
+        text-align: center;
+    }
+    .prodsrch input{
+        width: 60%;
+        justify-content: center;
+        border-color: black;
+        border-width: 3px;
+        height: 40px;
+        border-radius: 40px;
+        margin-top: 30px;
+    }
+    .product-container{
+        display: flex;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .product img{
+        width:300px;
+        height: 400px;
+    }
+    .product p{
+        text-align: center;
+    }
+    .side a{
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        background-color: black;
+        width: 650px;
+        height: 700px;
+        margin-left: 30%;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        color: white;
+    }
+    .head{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .name{
+        padding-left: 70px;
+        position: absolute;
+    }
+    .name input{
+        width: 470px;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .Email{
+        padding-left: 70px;
+        padding-top: 110px;
+        position: absolute;
+    }
+    .Email input{
+        width: 470px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .message{
+        padding-left: 70px;
+        padding-top: 220px;
+        position: absolute;
+    }
+    .message input{
+        width: 470px;
+        height: 130px;
+        border-radius: 5px;
+    }
+    .button{
+        margin-top: 500px;
+        margin-left: 70px;
+    }
+    .button button{
+        padding: 10px;
+        border-radius: 6px;
+    }
+    .button button:hover{
+        cursor: pointer;
+    }
+   
+    @media screen and (max-width:1000px){
+        .option{
+            display: block;
+        }
+        .navlink{
+            display: none;
+        }
+    }
+    @media screen and (max-width:1000px){
+        .serviceone{
+            display: none;
+        }
+        .servicetwo{
+            flex-direction: column;
+            margin-top: 20%;
+        }
+    }

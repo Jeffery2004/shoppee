@@ -1,0 +1,78 @@
+<html>
+    <head><title>Collections</title></head>
+    <link rel="stylesheet" href="style.css">
+    <div class="navbar">
+        <h1 class="head">SHOOPPEE</h1>
+        <div class="navlink">
+            <p class="link"><a href="index.html">Home </a></p>
+            <p class="link"><a href="collections.html">Collections </a></p>
+            <p class="link"><a href="contactus.html">Contact Us</a></p>
+        </div>
+        <div class="option" onclick="disp()">Option</div>
+    </div>
+    <hr>
+    <div class="sidebar">
+        <h3 class="close" onclick="hide()">X</h3>
+        <h2 class="side"><a href="index.html">Home</a></h2>
+        <hr>
+        <h2 class="side"><a href="collections.html">Collections</a></h2>
+        <hr>
+        <h2 class="side"><a href="contactus.html">Contact Us</a></h2>
+        <hr>
+    </div>
+
+    <div class="prodsrch">
+        <input type="text" id="search" placeholder="🔍 Search">
+    </div>
+    <div class="product-container" id="prodcont">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGplYW5zfGVufDB8fDB8fHww">
+            <p>Jeans</p>
+        </div>
+        <div class="product">
+            <img src="https://media.istockphoto.com/id/172992374/photo/man-dressed-in-black-t-shirt.webp?b=1&s=170667a&w=0&k=20&c=ijJkEGcxQz16wj2hdfBRPWg_hXG0kB5Vjt5WGwE0PJQ=">
+            <p>Black TShirt</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hpcnR8ZW58MHx8MHx8fDA%3D">
+            <p>White Shirt</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9vZGllfGVufDB8fDB8fHww">
+            <p>Hoodie</p>
+        </div>
+        <div class="product">
+            <img src="https://media.istockphoto.com/id/1195166190/photo/male-model-in-a-blue-suit-casual-outfit.jpg?s=612x612&w=0&k=20&c=-5adFLpcsV7c2Y0GFSlB-m2c7x4j5gHR_l56IrpFtjU=">
+            <p>Coat</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D">
+            <p>Shoes</p>
+        </div>
+        <div class="product">
+            <img src="https://media.istockphoto.com/id/1317492385/photo/woman-wearing-soft-comfortable-slippers-at-home-closeup.jpg?s=612x612&w=0&k=20&c=aW1yoyABIYXBQ_Mb1L6UksW_V0RYrUFFry62G35QDzM=">
+            <p>Slippers</p>
+        </div>
+        <div class="product">
+            <img src="https://media.istockphoto.com/id/1126539083/photo/two-denim-shorts.jpg?s=612x612&w=0&k=20&c=j_P1_mYw28CxUxd5RHLy7swpPShKuucrHSB131R6CX4=">
+            <p>Trousers</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1 style="margin-left: 20px;">Shoppee</h1>
+        <h3 style="margin-left: 20px;">The standard chunck of lorem ipsum used since 1500s below for those interest</h3>
+        <h3 style="margin-left: 20px;">@2023 shoppee.com</h3>
+        <h3 style="margin-left: 20px;">created by jeffery</h3>
+    </div>
+</html>
+<script>
+    var sidebar=document.querySelector(".sidebar");
+    function disp(){
+        sidebar.style.left="0";
+
+    } function hide(){
+        sidebar.style.left="-50%";
+    }
+
+</script>
+<script src="collections.js"></script>
